@@ -1,0 +1,5 @@
+CREATE DATABASE permalist;
+CREATE TABLE items(
+id SERIAL PRIMARY KEY,
+title VARCHAR(200)
+)
